@@ -1,0 +1,84 @@
+/* Styling the Body element i.e. Color,
+Font, Alignment */
+
+body {
+    background-color: #0051ff;
+    font-family: Verdana;
+    text-align: center;
+}
+
+
+/* Styling the Form */
+
+form {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px 40px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 1 em;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0004ff;
+    ;
+}
+
+
+/* form-design Class */
+
+.form-design {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+
+/* Styling form-design Label */
+
+.form-design label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+/* Styling form-design input,
+select, textarea */
+
+.form-design input,
+.form-design select,
+.form-design textarea {
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+
+/* Styling form-design Radio
+button and Checkbox */
+
+.form-design input[type="radio"],
+.form-design input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+
+/* Styling Button */
+
+button {
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
